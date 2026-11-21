@@ -59,6 +59,7 @@ bright_cyan = "#8ED4CB"
 bright_blue = "#8FB3E0"
 bright_magenta = "#CE8FC8"
 
-# Not an ANSI slot: the red anchor darkened so filled destructive surfaces keep
-# cream text above 4.5:1. Terminals and templates ignore it; gtk.css uses it.
-dark_red = "#B23E30"
+# The one anchor with no role of its own, dark_red #B23E30 -- the red above
+# darkened so filled destructive surfaces keep cream text above 4.5:1 -- is a
+# literal in gtk.css, not a palette key Omarchy reads, so it is not repeated here.
+
